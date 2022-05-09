@@ -1,0 +1,55 @@
+.main {
+  z-index: 1;
+  position:fixed;
+  top:0;
+  position:60px;
+  height:60px;
+  left:0;
+  right:0;
+  background:black;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  font-size:25px;
+}
+.main a {
+  color: #cccccc;
+  text-decoration:none;
+}
+.logo_name {
+  font-size: 1.5rem;
+  color: #cccccc;
+  text-decoration:none;
+}
+.block_sidebar {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:60px;
+  background:black;
+  z-index: 1;
+  border-bottom: 2px solid;  
+  opacity: .98;
+}
+.name {
+  color:#cccccc;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.8em;
+}
+@media (max-width: 1155px) { //стал меньше пропал desktop header
+    .main {
+        display:none;
+    }
+    .block_sidebar{
+      display: flex;
+    }
+  }
+  @media (min-width: 1155px) { //пока больше не показывает burger-menu
+    .block_sidebar {
+      display: none;
+      
+    }
+  }

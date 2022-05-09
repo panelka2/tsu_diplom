@@ -1,0 +1,23 @@
+.name_page {
+    margin: 40px;
+    font-size: 3rem;
+    text-align: center;
+}  
+.block_with_logo {
+    margin: 40px;
+    display: flex;
+    border-left: 2px solid;
+    align-items: center;
+}
+.block_with_logo h2 {
+    margin-left: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+.block_with_logo span {
+    margin-left: 5px;
+    width: 50%;
+    font-size: 1.8rem;
+}
