@@ -20,36 +20,36 @@ export default function Index() {
             
             <div className={styles.block_with_logo}>
                 <h2>Александр Иванович Сафронов</h2>
-                <span>
+                <div>
                     Узнать подробнее о преподавателе можно на сайте Тольяттинского Государственного Университета - <a href="https://www.tltsu.ru/sveden/employees/safronov-aleksandr-ivanovich/">перейти</a>
-                </span>
+                </div>
             </div>
             
             <div className={styles.block_with_logo}>
                 <h2>Реализованные задачи</h2>
-                <span>
+                <div>
                     Ознакомиться с выпускными квалификационными работами можно в шапке сайта, либо по <Link href='/projects'> ссылке </Link>
-                </span>
+                </div>
             </div>
 
             <div className={styles.block_with_logo}>
                 <h2>Задачи в разработке</h2>
-                <span>
+                <div>
                     Для ознакомления с выпускными квалификационными работами, находящимися в настоящее время в разработке,  можно в шапке сайта, либо по <Link href='/inprogress'> ссылке </Link>
-                </span>
+                </div>
             </div>
 
             <div className={styles.block_with_logo}>
                 <h2>Контакты</h2>
-                <span>
+                <div>
                     Данные для связи с профессором Сафроновым или разработчиком ресурса доступны в шапке сайта, либо по <Link href='/contacts'> ссылке </Link>
-                </span>
+                </div>
             </div>
             <div className={styles.block_with_logo}>
                 <h2>Работы профессора Сафронова</h2>
-                <span>
-                    <iframe src="https://drive.google.com/file/d/1QEDFJTzKoc1izFj5iVaUezRLo0kSr1dC/preview" width="640" height="480" allow="autoplay"></iframe>
-                </span>
+                <div>
+                    <iframe src="https://drive.google.com/file/d/1QEDFJTzKoc1izFj5iVaUezRLo0kSr1dC/preview" className={styles.block_docs} allow="autoplay"></iframe>
+                </div>
             </div>
             
         </MainLayout> 

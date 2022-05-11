@@ -2,6 +2,7 @@
     margin: 40px;
     font-size: 3rem;
     text-align: center;
+    font-weight: bold;
 }  
 .block_with_logo {
     margin: 40px;
@@ -14,10 +15,37 @@
     width: 50%;
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: normal;
 }
-.block_with_logo span {
+.block_with_logo div {
     margin-left: 5px;
     width: 50%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+}
+.block_docs {
+    width:640px;
+    height: 450px;
+}
+@media (max-width: 1155px) { //стал меньше
+    .name_page {
+        font-size: 2.5rem;
+    }
+    .block_with_logo {
+        display: block;
+        margin: 20px;
+    }
+    .block_with_logo div {
+        display: block;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .block_with_logo h2 {
+        margin-left: 20px;
+        width: 100%;
+    }
+    .block_docs {
+        width:100%;
+        height: 350px;
+    }
 }
