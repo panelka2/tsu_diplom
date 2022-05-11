@@ -51,7 +51,7 @@ export default function About() {
                 </section>
 
                 <section className={styles.fourth_section}>
-                    <header>Моделирование предметной области</header>
+                    <header>Моделирование</header>
                     <h2>
                         В настоящее время большинство преподавателей ИП Кириченко И.В. использует классический подход к оценке знаний студентов, который предполагает проведение экзамена при помощи билетов
                     </h2>
@@ -145,7 +145,6 @@ export default function About() {
                         </div>
                     </div>
 
-                    <header>Пример реализации проекта </header>
                     <div className={styles.block_photos_fifth_section}>
                         <div className={styles.first_photo_on_string}>
                             <h3>Форма авторизации</h3>
