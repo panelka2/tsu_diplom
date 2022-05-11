@@ -60,8 +60,8 @@ export default function About() {
                         <div className={styles.solo_block}>
                             <h3>Схема</h3>
                             <ul className={styles.points_in_block}>
-                                <li>Студент выюирает билет</li>
-                                <li>Готовится к ответу,отвечает</li>
+                                <li>Студент выбирает билет</li>
+                                <li>Готовится к ответу, отвечает</li>
                                 <li>Полученный разультат попадает в ведомость</li>
                             </ul>
                             <div className={styles.image_block}>
