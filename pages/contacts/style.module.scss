@@ -1,0 +1,17 @@
+.head {
+    text-align: center;
+}
+.first_section {
+    padding-left: 6rem;
+}
+.first_section span{
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+@media (max-width: 1155px) {
+    .first_section {
+        padding-left: 0;
+        justify-content: center;
+        display: flex;
+    }
+}

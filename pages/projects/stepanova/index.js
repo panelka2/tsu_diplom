@@ -210,6 +210,31 @@ export default function About() {
                         <p>В рамках данной работы была разработана именно такая оффлайн-система, реализующая возможность тестирования студентов.</p>
                     </div>
                 </section>
+                <section className={styles.third_section}>
+                    <header>Контакты</header>
+                    <div className={styles.sixth_text}>
+                        
+                            <div>
+                                <h1>
+                                Почта
+                                </h1> 
+                                <p href="mailto:stepanova@mail.ru">stepanova@mail.ru</p><br/>
+                            </div>
+                            <div>
+                                <h1>
+                                    Телеграм
+                                </h1>
+                                <p>@stepanova</p><br/>
+                            </div>
+                          
+                            <div>
+                                <h1>
+                                    Вконтакте
+                                </h1>
+                                <p>https://vk.com/stepanova</p><br/>
+                            </div>
+                        </div>
+                </section>
             </main>
         </MainLayout>
     )
