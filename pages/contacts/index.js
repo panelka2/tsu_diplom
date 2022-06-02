@@ -8,13 +8,13 @@ export default function Posts() {
             <div className={styles.about_blocks}>
                 <div>
                     <h2>Профессор Сафронов</h2>
-                    <span>Email - <b>safr@mail.ru</b></span><br/>
-                    <span>Телеграм - <b>@safronov</b></span>
+                    <span>Email - <b><a href="mailto:safronov@mail.ru" className={styles.link}>safronov@mail.ru</a></b></span><br/>
+                    <span>Телеграм - <b><a href="https://t.me/safronovtest" className={styles.link}>@safronov</a></b></span>
                 </div>
                 <div>
                     <h2>Разработчик приложения</h2>
-                    <span>Email - <b>shchekin@mail.ru</b></span><br/>
-                    <span>Телеграм - <b>@shchekin</b></span>
+                    <span>Email - <b><a href="mailto:shchekin@mail.ru" className={styles.link}>shchekin@mail.ru</a></b></span><br/>
+                    <span>Телеграм - <b><a href="https://t.me/shchekintest" className={styles.link}>@shchekin</a></b></span>
                 </div>
             </div>
             </section>

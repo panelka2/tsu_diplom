@@ -1,4 +1,28 @@
+.head {
+    text-align: center;
+}
 .block_img {
     width:50%;
-    margin:20px;
+    margin:10px;
 }
+.block_project {
+    display: flex;
+    margin-bottom: 50px;
+}
+.block_text {
+    width:50%;
+}
+@media (max-width: 1155px) {
+    .block_project {
+        flex-direction: column-reverse;
+    }
+    .block_img {
+        width:100%;
+        margin:0px;
+    }
+    .block_text {
+        width:auto;
+        margin: 10px;
+    }
+}
+
