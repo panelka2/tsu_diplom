@@ -1,8 +1,7 @@
 import { MainLayout } from "../../components/MainLayout"
-import IvanovCard from "../../components/Cards/IvanovCard"
 import StepanovaCard from "../../components/Cards/StepanovaCard"
 import styles from "./projects.module.scss"
-import SteninCard from "../../components/Cards/SteninCard"
+import OsinCard from "../../components/Cards/OsinCard"
 
 export default function About() {
 
@@ -13,7 +12,7 @@ export default function About() {
                 <div className={styles.description}>Ознакомьтесь с завершенными проектами,<br/> <a>которые нашли,</a> <br/><a>либо найдут себе применение в будущем.</a></div>
             </div>
             <StepanovaCard/>
-            <SteninCard />
+            <OsinCard />
         </MainLayout>
     )
 }

@@ -22,8 +22,8 @@ $font-color-for-kozlov: #f9d9cb;
   justify-content: center;
 }
 .first_word_name_project {
-  border-top: 3px solid #4592cc;
-  border-left: 3px solid #4592cc;
+  border-top: 3px solid #000000;
+  border-left: 3px solid #000000;
 }
 .description_block {
   width:40%;
@@ -43,18 +43,20 @@ $font-color-for-kozlov: #f9d9cb;
   text-decoration: none;
 }
 .name_student { 
-  background-color: #d4e8fa ;
+  background-color: gray ;
 }
 .first_word {
-  border-left: 2px solid #4592cc;
-  border-top: 2px solid #4592cc;
+  border-left: 2px solid #000000;
+  border-top: 2px solid #000000;
 }
 .last_word {
-  border-right: 2px solid #4592cc;
-  border-bottom: 2px solid #4592cc;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 .image_style {
   width:60%;
+  display: flex;
+    justify-content: center;
 }
 
 @media (max-width:1155px) { // вкл мобилки
