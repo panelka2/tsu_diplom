@@ -38,9 +38,9 @@ export default function About() {
                 <div className={styles.block_img}>
                     <Image
                         alt="img_project" 
-                        src="/inprogress_images/kozlov.jpg"
-                        width="2148"
-                        height="1108"
+                        src="/inprogress_images/amin.jpg"
+                        width="864"
+                        height="470"
                     />
                 </div>
                 <div className={styles.block_text}>
@@ -80,6 +80,31 @@ export default function About() {
                             <li>изучить аналоги сайтов схожей тематики (электронные издания и ресурсы, работающие в сфере предоставления населению образовательных услуг), выявить преимущества и недостатки конкурентов</li>
                             <li>определить структуру сайта и выполнить процесс разработки.</li>
                             <li>разработать дизайн-макет сайта, который может пополняться и развиваться.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div className={styles.block_project}>
+                <div className={styles.block_img}>
+                    <Image
+                        alt="img_project" 
+                        src="/inprogress_images/simkin.jpg"
+                        width="788"
+                        height="489"
+                    />
+                </div>
+                <div className={styles.block_text}>
+                    <h2>Моделирование систем эстафетной схемы с использованием метода распада произвольного разрыва</h2>
+                    <p><span><b>Студент - </b></span>Симкин А.</p>
+                    <p><span><b>Направление обучения - </b></span>ПМИ</p>
+                    <p><span><b>Год защиты проекта - </b></span>2022</p>
+                    <p><span><b>Поставленные задачи - </b></span>
+                        <ul>
+                            <li>изучить используемые на данный момент схемы метания.</li>
+                            <li>составить математическую модель данной схемы.</li>
+                            <li>рассмотреть задачу о распаде произвольного разрыва.</li>
+                            <li>получение результатов расчёта модели для сравнения с традиционной схемой метания.</li>
                         </ul>
                     </p>
                 </div>

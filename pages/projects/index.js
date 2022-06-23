@@ -2,6 +2,8 @@ import { MainLayout } from "../../components/MainLayout"
 import StepanovaCard from "../../components/Cards/StepanovaCard"
 import styles from "./projects.module.scss"
 import OsinCard from "../../components/Cards/OsinCard"
+import TokarevCard from "../../components/Cards/TokarevCard"
+import MorozovCard from "../../components/Cards/MorozovCard"
 
 export default function About() {
 
@@ -13,6 +15,8 @@ export default function About() {
             </div>
             <StepanovaCard/>
             <OsinCard />
+            <TokarevCard/>
+            <MorozovCard/>
         </MainLayout>
     )
 }
