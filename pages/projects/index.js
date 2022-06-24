@@ -13,10 +13,10 @@ export default function About() {
                 <div className={styles.name_page}>Реализованные задачи</div>
                 <div className={styles.description}>Ознакомьтесь с завершенными проектами,<br/> <a>которые нашли,</a> <br/><a>либо найдут себе применение в будущем.</a></div>
             </div>
-            <StepanovaCard/>
             <OsinCard />
             <TokarevCard/>
             <MorozovCard/>
+            <StepanovaCard/>
         </MainLayout>
     )
 }
