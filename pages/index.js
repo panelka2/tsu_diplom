@@ -51,6 +51,19 @@ export default function Index() {
                     <iframe src="https://drive.google.com/file/d/1QEDFJTzKoc1izFj5iVaUezRLo0kSr1dC/preview" className={styles.block_docs} allow="autoplay"></iframe>
                 </div>
             </div>
+            <div className={styles.block_with_logo}>
+                <div>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQfY3XF72E1l7y4Z80l2wj6SN9ys56mExRID8aETQw0j7JETpD_98XD0wzmuPDpnA/pub?embedded=true" className={styles.block_docs} allow="autoplay"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ_-d_GLEUDIQK_fsyn0g1i4GCLCjjkaSap3QCgusEI7HZEF47d15ndGBnVW8Z9Jw/pub?embedded=true" className={styles.block_docs} allow="autoplay"></iframe>
+                </div>
+            </div>
+            <div className={styles.block_with_logo}>
+                <div>
+                    <iframe src="https://drive.google.com/file/d/1qy3z7-qP-JnNG44ap_Y0L8gkMxRMbuiB/preview"  className={styles.block_docs} allow="autoplay"></iframe>
+                </div>
+            </div>
             
         </MainLayout> 
     )
